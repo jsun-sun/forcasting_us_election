@@ -1,0 +1,41 @@
+---
+title: "Trump to win 53% of popular vote in 2020 US Presidential Elecction"
+subtitle: "4% confidence interval based on a survey from July 2020"
+author: "Joanne Sun"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+abstract: |
+  | First sentence
+  | 
+  | **keywords:** forecasting; 2020 US Presidential Election 
+output: 
+  bookdown::pdf_document2:
+    citation_package: natbib
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+ (@R)
+
+# Data
+# reference figure 
+(Figure \@ref(fig.bills))
+
+# reference table
+(Table \@ref(tab:billstable))
+
+# equation
+(Equation \@ref(eq:billsequation))
+
+```{r bills, fig.cap="Bills, fig.width=8, fig.height=4}
+
+
+```
+
+
+# References
+ 
+
